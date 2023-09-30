@@ -14,7 +14,7 @@ import it.unipv.po.banca.model.conto.util.TipologiaConto;
 import it.unipv.po.banca.view.BanchiereGUI;
 import it.unipv.po.banca.view.Frame;
 
-public class Tester {
+public class TesterBanca {
 	
 	public static void main(String[] args) {
 		
@@ -45,7 +45,7 @@ public class Tester {
 		
 		
 		System.out.println(b.getConto("IT00000Intesa0003").toString());//getConto mi torna la reference x del conto!!!
-		b.operazioneConto("IT00000Intesa0003", 5.0);	//dato che non è stata modificata la prima volta la pw, op impossibile
+		b.operazioneConto("IT00000Intesa0003", 5.0);	//dato che non ï¿½ stata modificata la prima volta la pw, op impossibile
 		
 		
 		((ContoWeb)b.getConto("IT00000Intesa0003")).changePassword("changeme", "NEW");

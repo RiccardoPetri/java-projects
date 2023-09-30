@@ -5,7 +5,7 @@ import it.unipv.po.aereoporto.model.util.Genere;
 public class Flyer extends Persona {
 
 //	1.	Flyer. Si tratta di viaggiatori occasionali che non hanno diritto ad usufruire di servizi aggiuntivi.
-//	Esso è caratterizzato dal numero di volo.
+//	Esso ï¿½ caratterizzato dal numero di volo.
 
 	private String numeroVolo;		//definire intero o double solo se ho un'operazione double 8 byte
 
@@ -15,12 +15,6 @@ public class Flyer extends Persona {
 		this.numeroVolo = numeroVolo;
 
 	}
-
-
-	public String getNumeroVolo() {
-		return numeroVolo;
-	}
-
 
 
 	public void setNumeroVolo(String numeroVolo) {

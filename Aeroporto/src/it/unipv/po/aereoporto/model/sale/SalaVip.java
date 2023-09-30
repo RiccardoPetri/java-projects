@@ -42,7 +42,7 @@ public class SalaVip extends SalaDiAttesa {
 //		} catch (NumeroMassimoPostiException ex) {
 //			ex.print();
 //		} catch (NullPointerException ex) {
-//			System.out.println("Persona p è null");
+//			System.out.println("Persona p ï¿½ null");
 //		} catch (NoFrequentFlyerEcxeption ex) {
 //			ex.print();
 //		}
@@ -69,7 +69,7 @@ public class SalaVip extends SalaDiAttesa {
 		} catch (NumeroMassimoPostiException ex) {
 			ex.print();
 		} catch (NullPointerException ex) {
-			System.out.println("Persona p è null");
+			System.out.println("Persona p ï¿½ null");
 		} catch (NoFrequentFlyerEcxeption ex) {
 			ex.print();
 		}

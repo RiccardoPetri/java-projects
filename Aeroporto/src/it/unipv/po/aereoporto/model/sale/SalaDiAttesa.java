@@ -14,6 +14,7 @@ public class SalaDiAttesa implements Accessibile {
 		this.codiceSala = codiceSala;
 		s = new ArrayList<Persona>();
 	}
+	
 
 	@Override
 	public boolean addViaggiatore(Persona p) {
@@ -26,7 +27,7 @@ public class SalaDiAttesa implements Accessibile {
 				}
 				throw new NumeroMassimoPostiException("Numero posti esaurito");
 			}
-			throw new NullPointerException("Persona p è null");
+			throw new NullPointerException("Persona p Ã¨ null");
 		}
 		catch(NullPointerException ex) {
 			System.out.println(ex.getMessage());
@@ -63,8 +64,8 @@ public class SalaDiAttesa implements Accessibile {
 //	1.	Sale d'attesa. Sono sale accessibili a qualsiasi viaggiatore.
 //	2.	Sale Vip. Sono sale accessibili solo a viaggiatori in possesso di una carta servizi.
 //
-//	Si modelli la realtà sopra descritta e si realizzi un tester considerando almeno 5 persone, di cui almeno 
-//un flyer e un frequent flyer, 3 sale di cui almeno una sala d’attesa e una sala Vip. Le sale possono essere inizializzate 
+//	Si modelli la realtï¿½ sopra descritta e si realizzi un tester considerando almeno 5 persone, di cui almeno 
+//un flyer e un frequent flyer, 3 sale di cui almeno una sala dï¿½attesa e una sala Vip. Le sale possono essere inizializzate 
 //in modo tale da testare il meccanismo di controllo della capienza.
 
 }

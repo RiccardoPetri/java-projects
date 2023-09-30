@@ -8,7 +8,7 @@ public class CartaServizi {
 	public CartaServizi(String codice) {
 		this.codice = codice;
 		this.accredito=accredito;	//anche qui passo TUTTE LE COSE ISTANZIABILI nel costruttore!
-									//il saldo no perchè era zero, normalmente passo tutto
+									//il saldo no perchï¿½ era zero, normalmente passo tutto
 		
 	}
 
@@ -33,9 +33,6 @@ public class CartaServizi {
 		return "CartaServizi [codice=" + codice + ", accredito=" + accredito + "]";
 	}
 
-
-	
-	
 	
 	
 }

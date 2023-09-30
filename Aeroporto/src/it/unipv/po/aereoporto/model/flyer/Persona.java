@@ -4,19 +4,21 @@ import it.unipv.po.aereoporto.model.util.Genere;
 
 public abstract class Persona {
 
-//	Si consideri l’accesso delle persone alle sale d’attesa di un aeroporto. 
-//	Ogni persona è caratterizzata da nome, cognome, età, sesso (maschile/femminile).
+//	Si consideri lï¿½accesso delle persone alle sale dï¿½attesa di un aeroporto. 
+//	Ogni persona ï¿½ caratterizzata da nome, cognome, etï¿½, sesso (maschile/femminile).
 //	Inoltre, le persone possono appartenere alle seguenti categorie:
 //	1.	Flyer. Si tratta di viaggiatori occasionali che non hanno diritto ad usufruire di servizi aggiuntivi.
-//	Esso è caratterizzato dal numero di volo.
+//	Esso ï¿½ caratterizzato dal numero di volo.
 //	2.	Frequent Flyer. Si tratta di viaggiatori frequenti che possono accedere ai servizi aggiuntivi offerti
 //	dalle compagnie aeree. In aggiunta alle informazioni normali, questi viaggiatori hanno associato un numero 
 //	di volo, una carta servizi e il numero di miglia percorse.
 
+
 	private String nome;
 	private String cognome;
 	private int eta;
-	private Genere genere; // potrei farlo binario?			//è UN ENUM!!!
+	private Genere genere; // potrei farlo binario?			//ï¿½ UN ENUM!!!
+	
 
 	public Persona(String nome, String cognome, int eta, Genere genere) {			
 		this.nome = nome;
@@ -25,7 +27,9 @@ public abstract class Persona {
 		this.genere = genere;
 	}
 
+
 	public abstract boolean isVip();	//IMPORTANTE DICHIARARE UN METODO ASTRATTO!!!
+	
 	
 	public String getNome() {
 		return nome;
